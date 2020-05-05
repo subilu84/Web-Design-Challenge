@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Humidity</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid navbar-custom">
+          <a class="navbar-brand" href="index.html"><h1>Latitude</h1></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="clouds.html">Cloudiness</a>
+                      <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                      </div>
+                  </li>  
+                  <li class="nav-item active"><a class="nav-link" href="comparison.html">Comparison </a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="data.html">Data</a>
+                  </li>                       
+               </ul>
+          </div>
+        </div> 
+      </nav>
+       
+      </div>
+    </div>
+    <main class="main-bio">
+        <section id="main-bio">
+            <section id="figure">
+              <h2 id="bio-name">Humidity</h2><br> 
+              <img id="bio-image1" src="lat_hum.png" alt="Lattitude">
+            </section>
+            <p>In this chart we can see there’s not much Humidity as we get close to equator (0 Degrees of Latitude). As far the North Hemisphere gets from equator (60 Degrees of Latitude) more humid it gets, however in the Southern Hemisphere the opposite occurs (-60 Degrees of Latitude) as far we get from the equator less humidity appears.</p>
+        </section> 
+      
+    <div class="visualization">
+      <h2>Visualization</h2>
+      <hr>
+      <section id="visual">    
+      <a href="temperature.html">
+        <img alt="temp" src="lat_temp.png" width="120" height="130">
+      </a>
+      <a href="clouds.html">
+        <img alt="cld" src="lat_cld.png" width="120" height="130">
+      </a>
+      <a href="humidity.html">
+        <img alt="hum" src="lat_hum.png" width="120" height="130">
+      </a>
+      <a href="wind.html">
+        <img alt="wind" src="lat_wind.png" width="120" height="130">
+      </a>
+      </section>
+    </div>
+      
+    </main>
+    
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+  </head>
+</html>
